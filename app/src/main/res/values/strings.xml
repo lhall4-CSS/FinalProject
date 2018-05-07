@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Plant Place</string>
+    //Drawer View Strings
+    <string name="dv_home">Home</string>
+    <string name="dv_stores">Locations</string>
+    <string name="dv_social">Connect</string>
+    <string name="dv_tools">Tools</string>
+</resources>

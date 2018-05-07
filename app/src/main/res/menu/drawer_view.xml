@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_dashboard_white_24dp"
+            android:title="@string/dv_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_filter_vintage_white_24dp"
+            android:title="@string/dv_stores" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_business_white_24dp"
+            android:title="@string/dv_social" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_store_white_24dp"
+            android:title="@string/dv_tools" />
+    </group>
+</menu>
