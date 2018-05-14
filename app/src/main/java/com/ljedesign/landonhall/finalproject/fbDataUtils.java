@@ -28,12 +28,22 @@ import java.util.TimeZone;
  * Created by lhall4 on 5/10/2018.
  */
 
+/**
+ * Class to format Fb Data
+ */
 public class fbDataUtils extends SocialFragment {
 
     JSONObject jsonObject;
     JSONArray jsonArray;
     PostAdapter postAdapter;
     ListView listView;
+
+    /**
+     * Method to parse the FB JSON data
+     * @param context
+     * @param view
+     * @param jsonString
+     */
 
     public void parseFBData(Context context, View view, String jsonString) {
         DateFormat m_ISO8601Local = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");

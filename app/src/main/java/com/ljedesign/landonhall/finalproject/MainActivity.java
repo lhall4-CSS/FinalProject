@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Initialize
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
+        //Set up navigation
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
@@ -62,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Activate the fragments that match user's selection
+     * @param menuItem
+     */
+
     protected void activateDrawerSelection(MenuItem menuItem) {
 
         Log.v("Menu Item", menuItem.toString());
@@ -79,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Method to call the fragments
+     * @param className
+     */
     protected void callFragment(String className) {
         Fragment fragment = null;
         try {

@@ -21,6 +21,7 @@ public class WebsiteFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        //Open the Web View
         openWebView();
 
     }
@@ -32,6 +33,9 @@ public class WebsiteFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_website, container, false);
     }
 
+    /**
+     * Method to open the web view that contains the plant place website
+     */
     public void openWebView() {
         webView = getView().findViewById(R.id.webViewPP);
         webView.setWebViewClient(new WebViewClient());
