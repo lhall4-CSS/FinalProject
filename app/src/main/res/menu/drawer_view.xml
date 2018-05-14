@@ -17,5 +17,9 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_store_white_24dp"
             android:title="@string/dv_tools" />
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/ic_store_white_24dp"
+            android:title="@string/dv_website" />
     </group>
 </menu>

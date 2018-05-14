@@ -28,13 +28,10 @@
         <FrameLayout
             android:id="@+id/content_frame"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#C0C0C0">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-                app:layout_constraintBottom_toBottomOf="parent" />
+
         </FrameLayout>
     </LinearLayout>
     <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
