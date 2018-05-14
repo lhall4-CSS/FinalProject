@@ -42,7 +42,7 @@ public class fbDataUtils extends SocialFragment {
      * Method to parse the FB JSON data
      * @param context
      * @param view
-     * @param jsonString
+     * @param jsonString json string containing data
      */
 
     public void parseFBData(Context context, View view, String jsonString) {

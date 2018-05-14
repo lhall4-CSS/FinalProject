@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Activate the fragments that match user's selection
-     * @param menuItem
+     * @param menuItem Selected menu Item
      */
 
     protected void activateDrawerSelection(MenuItem menuItem) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Method to call the fragments
-     * @param className
+     * @param className Class name of the fragment to call
      */
     protected void callFragment(String className) {
         Fragment fragment = null;
